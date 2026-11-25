@@ -1,17 +1,22 @@
-site_name: Material didáctico · Desarrollo de software
-site_description: Cursos y manuales de desarrollo de software para el aula
-site_url: https://rlrprofe.github.io/
-repo_url: https://github.com/rlrprofe/rlrprofe.github.io
-repo_name: rlrprofe/rlrprofe.github.io
-copyright: Material didáctico de desarrollo de software
+site_name: UML · Diagramas de clases y de comportamiento
+site_description: Curso de modelado con UML para Entornos de Desarrollo - diagramas de clases y diagramas de comportamiento
+site_url: https://rlrprofe.github.io/UML/
+repo_url: https://github.com/rlrprofe/UML
+repo_name: rlrprofe/UML
+copyright: UML · Entornos de Desarrollo
 
 theme:
   name: material
   language: es
   features:
     - navigation.top
+    - navigation.indexes
+    - navigation.expand
+    - toc.follow
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.tabs.link
   palette:
     - scheme: default
       primary: indigo
@@ -31,13 +36,28 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - tables
   - attr_list
   - md_in_html
   - toc:
-      permalink: false
+      permalink: true
+      toc_depth: 4
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Inicio: index.md
+  - "Parte I · Fundamentos de UML":
+      - "1. Introducción a UML": capitulos/01-introduccion.md
+      - "2. Herramientas CASE": capitulos/02-herramientas.md
+  - "Parte II · Diagramas de clases":
+      - "3. Clases y objetos en UML": capitulos/03-clases-objetos.md
