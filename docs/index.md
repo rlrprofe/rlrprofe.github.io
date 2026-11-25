@@ -1,4 +1,4 @@
----
+﻿---
 hide:
   - navigation
   - toc
@@ -52,7 +52,7 @@ Aquí encontrarás los cursos que se van publicando para los módulos de desarro
 
     Diagramas de clases y de comportamiento: del requisito al diagrama y del diagrama al código. Casos de uso, secuencia, actividades y estados.
 
-    [:octicons-arrow-right-24: Abrir el curso](https://rlrprofe.github.io/uml/)
+    [:octicons-arrow-right-24: Abrir el curso](https://rlrprofe.github.io/UML/)
 
 </div>
 
@@ -61,3 +61,4 @@ PARA AÑADIR UN CURSO NUEVO: copia uno de los bloques de arriba (desde "-   :mat
 hasta su enlace), pégalo antes de </div> y cambia icono, título, descripción y enlace.
 Iconos disponibles: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 -->
+
