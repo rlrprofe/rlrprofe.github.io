@@ -46,20 +46,18 @@ Aquí encontrarás los cursos que se van publicando para los módulos de desarro
 
     [:octicons-arrow-right-24: Abrir el curso](https://rlrprofe.github.io/poo/)
 
+-   :material-sitemap:{ .lg .middle } **UML** · Modelado de sistemas
+
+    ---
+
+    Diagramas de clases y de comportamiento: del requisito al diagrama y del diagrama al código. Casos de uso, secuencia, actividades y estados.
+
+    [:octicons-arrow-right-24: Abrir el curso](https://rlrprofe.github.io/uml/)
+
 </div>
 
 <!--
 PARA AÑADIR UN CURSO NUEVO: copia uno de los bloques de arriba (desde "-   :material-..."
 hasta su enlace), pégalo antes de </div> y cambia icono, título, descripción y enlace.
 Iconos disponibles: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
-
-Ejemplo de curso futuro (quita los comentarios cuando esté publicado):
-
--   :material-sitemap:{ .lg .middle } **UML**
-
-    ---
-
-    Diagramas de clases y modelado de sistemas orientados a objetos.
-
-    [:octicons-arrow-right-24: Abrir el curso](https://rlrprofe.github.io/uml/)
 -->
